@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'CloisterBlack';
+    src: url(CloisterBlack.ttf);
+}
+
+html {
+    color: white;
+}
+
+body {
+    background: black;
+    font-family: arial;
+
+    overflow: hidden;
+
+
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'CloisterBlack';
+    text-transform: lowercase;
+}
+
+h1:hover {
+    color: purple;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
